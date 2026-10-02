@@ -1,0 +1,309 @@
+/* CSS otimizado para mPDF - Proposta Seguro Automóvel BIC */
+
+body {
+    /* font-family: Arial, sans-serif; */
+
+    line-height: 1.2;
+    margin: 0;
+    padding: 0;
+    color: #000000;
+    font-size: 11px
+}
+
+
+
+span {
+    font-size: 11px
+}
+
+
+/* Configurações de página */
+.page {
+    width: 100%;
+    page-break-after: always;
+    position: relative;
+    padding: 10px;
+}
+
+.page:last-child {
+    page-break-after: avoid;
+}
+
+/* Cabeçalho da página */
+.header {
+    border-bottom: 1px solid #000000;
+    padding-bottom: 8px;
+    margin-bottom: 15px;
+    position: relative;
+    color: red;
+    text-align: center;
+    /* font-size: 3px; */
+}
+
+.footer {
+    padding-bottom: 8px;
+    margin-bottom: 15px;
+    /* padding-left: 33%; */
+    color: red;
+    text-align: center;
+    /* padding-right: 50%; */
+
+}
+
+.company-info {
+    font-size: 6pt;
+    line-height: 1.2;
+
+    /* width: 85%; */
+    /* float: left; */
+}
+
+.page-number {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 8pt;
+    font-weight: bold;
+}
+
+/* Título principal */
+.title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 12pt;
+    margin: 15px 0;
+    text-transform: none;
+    color: red;
+    /* font-family: calibre; */
+
+    /* line-height: 10px; */
+    /* background-color: yellow; */
+}
+
+/* Títulos de seção com fundo vermelho */
+.section-title {
+    font-weight: bold;
+    font-size: 9pt;
+    margin: 12px 0 6px 0;
+    padding: 3px 5px;
+    background-color: #FF0000;
+    color: #FFFFFF;
+    text-transform: none;
+}
+
+.section-title .light,
+.section-title small {
+    text-transform: none;
+}
+
+/* Checkboxes */
+.checkbox {
+    /* border: 1px solid #000000; */
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    margin: 0 3px;
+    vertical-align: middle;
+    background-color: #FFFFFF;
+    padding-bottom: 0px !important;
+}
+
+/* Tabelas de formulário */
+.form-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 5px 0;
+}
+
+.text-capitalize {
+    text-transform: capitalize;
+}
+
+.form-table td {
+    vertical-align: top;
+    padding: 2px 5px 2px 0;
+    font-size: 7.8pt;
+    font-weight: normal;
+}
+
+/* Tabelas com bordas */
+.bordered-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 8px 0;
+}
+
+.bordered-table td,
+.bordered-table th {
+    border: 1px solid #000000;
+    padding: 6px 4px;
+    text-align: center;
+    font-size: 8pt;
+    vertical-align: middle;
+}
+
+.bordered-table th {
+    background-color: #FF0000;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+/* Classes utilitárias */
+.text-center {
+    text-align: center;
+}
+
+/* Linhas para preenchimento */
+.field-line {
+    border-bottom: 1px solid #000000;
+    display: inline-block;
+    min-width: 50px;
+    height: 12px;
+    margin: 0 2px;
+    vertical-align: baseline;
+    background-color: #FF0000;
+    /* color: #000000; */
+}
+
+/* Área de assinatura */
+.signature-area {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 9pt;
+}
+
+/* Caixas IBAN */
+.iban-box {
+    border: 1px solid black;
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    text-align: center;
+    font-size: 8pt;
+    vertical-align: top;
+}
+
+/* Tabela de duas colunas */
+.two-column {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.two-column td {
+    width: 50%;
+    vertical-align: top;
+    padding: 5px;
+}
+
+/* Texto pequeno */
+.small-text {
+    font-size: 7pt;
+    line-height: 1.2;
+}
+
+/* Seção de opções de garantias */
+.guarantee-options {
+    margin: 8px 0;
+}
+
+.guarantee-options div {
+    margin: 3px 0;
+}
+
+/* Texto de franquia */
+.franquia-text {
+    font-size: 8pt;
+    margin: 8px 0;
+    line-height: 1.3;
+}
+
+/* Texto de nota */
+.note-text {
+    font-weight: bold;
+    font-size: 8pt;
+    margin: 5px 0;
+}
+
+/* Estilos específicos para diferentes seções */
+
+/* Página 1 - Informações do segurado */
+.page:nth-child(1) .section-title:first-of-type {
+    margin-top: 20px;
+}
+
+/* Página 2 - Características do veículo */
+.page:nth-child(2) .bordered-table td {
+    font-weight: bold;
+}
+
+/* Página 3 - Vistoria */
+.page:nth-child(3) .checkbox {
+    margin-right: 15px;
+}
+
+/* Página 4 - Declaração e autorização */
+.page:nth-child(4) div {
+    text-align: justify;
+}
+
+/* Espaçamentos específicos */
+div[style*="margin: 10px 0"] {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+div[style*="margin: 5px 0"] {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+div[style*="margin: 15px 0"] {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/* Clearfix para floats */
+.header:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Ajustes específicos para mPDF */
+table {
+    border-spacing: 0;
+}
+
+strong {
+    font-weight: bold;
+}
+
+/* Prevenir quebras inadequadas */
+.section-title {
+    page-break-after: avoid;
+}
+
+/* Espaçamento entre elementos */
+br {
+    line-height: 1.4;
+}
+
+/* Margens específicas para diferentes elementos */
+.guarantee-options div {
+    margin-bottom: 5px;
+}
+
+/* Alinhamento de texto justificado onde necessário */
+.page:nth-child(4) div[style*="text-align: justify"] {
+    text-align: justify;
+    line-height: 1.3;
+}
+
+.box-logo {
+    text-align: right;
+}
+
+.section-title .paren-text,
+.section-bar .paren-text {
+    text-transform: none;
+}

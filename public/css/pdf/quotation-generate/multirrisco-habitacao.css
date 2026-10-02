@@ -1,0 +1,187 @@
+@page {
+    header: main_header;
+    footer: compliance_footer;
+    background: none;
+    background-image: none;
+    background-image-resize: 0;
+}
+
+@page :first {
+    header: main_header;
+    footer: compliance_footer;
+    background: none;
+    background-image: none;
+    background-image-resize: 0;
+}
+
+.box-img-cab {
+    text-align: left !important;
+}
+
+.img-cab {
+    margin-top: 0 !important;
+}
+
+.mh-page {
+    font-family: calibri, sans-serif;
+    color: #111;
+    /* font-size: 10.5pt; */
+}
+
+.mh-header {
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+.mh-logo {
+    height: 42px;
+}
+
+.mh-sim {
+   
+    color: #c4122f;
+    /* font-weight: 700; */
+    margin-top: 6px;
+    font-size: 12px;
+    /* background: red; */
+    text-align: right;
+}
+
+.mh-title {
+    text-align: center;
+    color: #c4122f;
+    /* font-size: 10px; */
+    margin: 10px 0 16px;
+    letter-spacing: 0.2px;
+}
+
+.mh-row {
+    margin-bottom: 8px;
+    font-size: 9pt;
+}
+
+.mh-row .label {
+    font-weight: 700;
+    margin-right: 8px;
+}
+
+.mh-section-title,
+.mh-subtitle {
+    margin: 8px 0 6px;
+    font-size: 12pt;
+    color: #111;
+}
+
+.mh-info {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+}
+
+.mh-info td {
+    padding: 3px 0;
+    font-size: 9pt;
+}
+
+.mh-info .k {
+    color: #c4122f;
+    font-weight: bold;
+    width: 220px;
+}
+
+.mh-cap {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 6px;
+}
+
+.mh-cap td {
+    padding: 2px 0;
+    font-size: 9pt;
+}
+
+.mh-cap .d-label,
+.mh-cap .v-label {
+    color: #c4122f;
+    width: 72px;
+    font-weight: bold;
+   
+}
+.v-label {
+  text-align: right;
+    /* background-color: blue; */
+}
+.v{
+   text-align: right;
+    /* background-color: blue;    */
+}
+.text-right{
+    text-align: right;
+}
+.color-danger{
+    color: #c4122f;
+}
+.mh-cap .d-box {
+    padding: 1px 0;
+    width: 100px;
+     border: 1px solid #111111;
+     
+}
+
+.mh-cap .v {
+    text-align: right;
+    width: 150px;
+}
+
+.mh-cov {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 2px;
+}
+
+.mh-cov th {
+    text-align: left;
+    color: #c4122f;
+    font-weight: 700;
+    padding: 4px 0 6px;
+    font-size: 9pt;
+}
+
+.mh-cov td {
+    padding: 3px 0;
+    font-size: 9pt;
+}
+
+.mh-cov td:last-child,
+.mh-cov th:last-child {
+    text-align: right;
+    width: 180px;
+}
+
+.mh-prem-title {
+    margin-top: 14px;
+}
+
+.mh-prem {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.mh-prem td {
+    padding: 3px 0;
+    font-size: 9pt;
+}
+
+.mh-prem td:first-child {
+    color: #c4122f;
+}
+
+.mh-prem td:last-child {
+    text-align: right;
+    width: 180px;
+}
+
+.mh-note {
+    margin-top: 6px;
+    font-size: 9pt;
+}

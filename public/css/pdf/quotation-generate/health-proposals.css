@@ -1,0 +1,374 @@
+body {
+    font-family: 'calibri';
+    color: #111111;
+    font-size: 7pt;
+    line-height: 1.25;
+    
+}
+
+.page {
+    page-break-after: always;
+    
+}
+@page {
+  header: main_header;
+  footer: compliance_footer;
+ 
+  background-image-resize: 6;
+}
+.page:last-child {
+    page-break-after: avoid;
+}
+
+.logo {
+    margin-bottom: 8px;
+}
+
+.title-box {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+}
+
+.title-box td {
+    vertical-align: top;
+}
+
+.title-main {
+    text-align: center;
+    font-size: 12.5pt;
+    font-weight: 700;
+    line-height: 1.25;
+    color: #c4161c;
+    text-transform: none;
+}
+
+.title-side {
+    border: 1px solid #111111;
+    padding: 8px 10px;
+    font-size: 8pt;
+    min-height: 70px;
+}
+
+.title-side.red {
+    color: #c4161c;
+    font-weight: 700;
+}
+
+.policy-line {
+    margin: 8px 0 10px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.section-title {
+    margin: 12px 0 6px;
+    background-color: #ff0000;
+    color: #ffffff;
+    font-weight: 700;
+    text-transform: none;
+    font-size: 9pt;
+    padding: 3px 5px;
+}
+
+.section-title .light,
+.section-title small {
+    text-transform: none;
+}
+
+.minor-title {
+    margin: 8px 0 4px;
+    font-weight: 700;
+}
+
+.section-box {
+    border: 1px solid #d63232;
+    padding: 6px 8px 4px;
+    margin-bottom: 10px;
+}
+
+.line-field {
+    margin: 4px 0;
+}
+
+.form-table,
+.grid-table,
+.coverage-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.form-table td {
+    padding: 2px 4px 2px 0;
+    vertical-align: top;
+    font-size: 7.8pt;
+}
+
+.grid-table th,
+.grid-table td,
+.coverage-table th,
+.coverage-table td {
+    border: 1px solid #111111;
+    padding: 4px 5px;
+    vertical-align: top;
+}
+
+.grid-table th,
+.coverage-table th {
+    background: #f1f1f1;
+    font-weight: 700;
+    text-align: center;
+}
+
+.grid-table td,
+.coverage-table td {
+    font-size: 8pt;
+}
+
+.left {
+    text-align: left;
+}
+
+.center {
+    text-align: center;
+}
+
+.small {
+    font-size: 8pt;
+}
+
+.tiny {
+    font-size: 7.4pt;
+}
+
+.muted {
+    color: #555555;
+}
+
+.checkbox {
+    display: inline-block;
+    min-width: 16px;
+    text-align: center;
+}
+
+.option-line {
+    margin: 4px 0;
+}
+
+.note-box {
+    min-height: 58px;
+    border: 1px solid #111111;
+    padding: 6px;
+}
+
+.declaration-box {
+    border: 1px solid #d63232;
+    padding: 8px 10px;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.signature-block {
+    margin-top: 20px;
+}
+
+.signature-line {
+    margin-top: 26px;
+    text-align: center;
+}
+
+.debit-box {
+    border: 1px solid #111111;
+    margin-top: 16px;
+    padding: 8px 10px;
+}
+
+.debit-title {
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.debit-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 8px;
+}
+
+.debit-table td {
+    border: 1px solid #111111;
+    padding: 5px 6px;
+    vertical-align: top;
+}
+
+.iban-table {
+    border-collapse: collapse;
+    margin: 6px 0;
+}
+
+.iban-table td {
+    border: 1px solid #111111;
+    width: 18px;
+    height: 18px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 8pt;
+}
+
+.top-logo-right {
+    text-align: right;
+    margin-bottom: 12px;
+}
+
+.header-grid {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+}
+
+.header-grid td {
+   text-align: center;
+     /* border: 1px solid #111111; */
+}
+.header-grid .date, .client {
+   
+     border: 1px solid #111111;
+}
+.header-grid .date {
+   
+     border: 1px solid #111111;
+}
+
+.small-box {
+    /* border: 1px solid #111111; */
+    padding: 10px 12px;
+    font-size: 8pt;
+}
+
+.proposal-heading {
+    text-align: center;
+    color: #ff0000;
+    font-weight: 700;
+    font-size: 12pt;
+    line-height: 1.2;
+    text-transform: none;
+     display: block;
+    margin: 0 auto;
+    font-weight: bold;
+}
+
+.sub-options {
+    margin-top: 8px;
+    font-size: 8pt;
+    color: #333333;
+}
+/* .header-grid tr td div table tr td{
+background-color: red;
+} */
+.inline-field {
+    display: inline-block;
+    min-width: 40px;
+    border-bottom: 1px solid #666666;
+    padding: 0 4px 1px;
+    line-height: 1.1;
+}
+
+.line-row {
+    margin: 6px 0;
+    /* font-size: pt; */
+}
+
+.fill-line {
+    display: inline-block;
+    border-bottom: 1px solid #888888;
+    min-height: 10px;
+    vertical-align: baseline;
+    padding: 0 4px 1px;
+}
+
+.section-bar {
+    margin: 10px 0 8px;
+    background: #ff0000;
+    color: #ffffff;
+    font-weight: 700;
+    padding: 4px 6px;
+    text-transform: none;
+    font-size: 9pt;
+}
+
+.section-bar .light {
+    text-transform: none;
+    font-size: 8pt;
+    font-weight: 700;
+}
+
+.people-box {
+    border: 1px solid #111111;
+    margin-top: 6px;
+}
+
+.people-row {
+    border-bottom: 1px solid #111111;
+    padding: 6px 8px;
+}
+
+.people-row:last-child {
+    border-bottom: none;
+}
+
+.people-label {
+    margin: 4px 0;
+    font-size: 8pt;
+    color: #333333;
+}
+
+.table-ref {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 8px;
+}
+
+.table-ref th,
+.table-ref td {
+    border: 1px solid #8f8f8f;
+    padding: 6px 7px;
+    vertical-align: middle;
+}
+
+.table-ref th {
+    font-weight: 700;
+}
+
+.gray-cell {
+    background: #cfcfcf;
+}
+
+.obs-lines {
+    margin-top: 8px;
+}
+
+.obs-line {
+    height: 22px;
+    border-bottom: 1px solid #888888;
+}
+
+.debit-panel {
+    border: 1px solid #111111;
+    padding: 10px;
+    margin-top: 12px;
+}
+
+.muted-fill {
+    background: #d9d9d9;
+}
+
+
+
+.section-title .paren-text,
+.section-bar .paren-text {
+    text-transform: none;
+}
+
+

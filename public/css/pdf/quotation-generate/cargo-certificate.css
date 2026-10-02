@@ -1,0 +1,61 @@
+/* public/css/pdf/quotation-generate/cargo-certificate.css */
+
+* { box-sizing: border-box; }
+body { font-family: 'calibri'; color: #111111; font-size: 7.6pt; line-height: 1.3; }
+
+.topbar { width: 100%; }
+.topbar-table { width: 100%; border-collapse: collapse; }
+.topbar-table td { vertical-align: top; padding: 0; }
+.logo { height: 52px; }
+
+.cert-title {
+    color: #f60a12;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 17pt;
+    line-height: 1.12;
+    margin: 4px 0 8px;
+}
+
+.intro { font-size: 7.6pt; margin: 2px 0 9px; }
+.en { font-style: italic; }
+
+table.block { width: 100%; border-collapse: collapse; margin: 0; }
+table.block td { border: 0.6px solid #111111; padding: 4px 6px; vertical-align: top; }
+
+.bar td { font-weight: bold; font-size: 7.6pt; }
+.hd td { font-weight: bold; text-align: center; }
+
+.center { text-align: center; }
+.right { text-align: right; }
+.bold { font-weight: bold; }
+.val { text-align: center; }
+.vmid { vertical-align: middle; }
+
+.desc-cell { font-size: 7.6pt; }
+.spacer-42 { height: 42px; }
+
+.clauses { font-style: italic; font-size: 7.6pt; }
+
+table.survey td { vertical-align: top; }
+.survey-strong { font-weight: bold; }
+.survey-p { margin: 0 0 6px; }
+.survey-contact { font-size: 7.6pt; line-height: 1.45; }
+
+table.issued { margin-top: 14px; width: 100%; border-collapse: collapse; }
+table.issued td { vertical-align: bottom; padding: 0; }
+.issued-sign { text-align: center; }
+.stamp { height: 80px; }
+
+.pagebreak { page-break-before: always; }
+
+/* Página 2 — duas colunas (div com float) */
+.proc { width: 100%; font-size: 8pt; line-height: 1.4; }
+.proc-col { width: 48%; }
+.proc-left { float: left; }
+.proc-right { float: right; }
+.proc-clear { clear: both; }
+.col-main { font-weight: bold; font-size: 11pt; padding-bottom: 8px; }
+.col-h { font-weight: bold; font-size: 7.6pt; padding-top: 8px; padding-bottom: 4px; }
+.proc-p { padding-bottom: 10px; }
+.proc-item { padding-bottom: 10px; }

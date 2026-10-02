@@ -1,0 +1,316 @@
+/* ESTILOS PARA mPDF */
+        @page {
+            margin: 15mm;
+            header: main_header;
+            margin-top: 100px;
+            background: url('img/cotacao/renewal-terms-proposal.jpg') no-repeat 0 0;
+            background-image-resize: 6;
+        }
+        
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 11pt;
+            line-height: 1.5;
+            color: #000;
+            margin: 0;
+            padding: 0;
+        }
+        
+        /* CLASSES GERAIS */
+        .w-100 {
+            width: 100%;
+        }
+        
+        .color-white {
+            color: white;
+        }
+        
+        .color-red {
+            color: #E31E24;
+        }
+        
+        .bg-red {
+            background-color: #E31E24;
+        }
+        
+        .bold {
+            font-weight: bold;
+        }
+        
+        .border-gray {
+            border: 3px solid #808080;
+        }
+        
+        .text-right {
+            text-align: right;
+        }
+        
+        .text-justify {
+            text-align: justify;
+        }
+        
+        /* ESPAÇAMENTOS */
+        .mb-15 {
+            margin-bottom: 15px;
+        }
+        
+        .mb-10 {
+            margin-bottom: 10px;
+        }
+        
+        .mb-60 {
+            margin-bottom: 60px;
+        }
+        
+        .mt-30 {
+            margin-top: 30px;
+        }
+        
+        .mt-50 {
+            margin-top: 50px;
+        }
+        
+        .p-20 {
+            padding: 20px;
+        }
+        
+        /* LAYOUT FLEX PARA DIVS */
+        .flex-container {
+            display: flex;
+            width: 100%;
+        }
+        
+        .flex-left {
+            flex: 0 0 30%;
+        }
+        
+        .flex-middle {
+            flex: 0 0 2%;
+        }
+        
+        .flex-right {
+            flex: 0 0 68%;
+        }
+        
+        /* CABEÇALHO */
+        .header-container {
+            position: relative;
+            width: 100%;
+        }
+        
+        .header-boxes {
+            display: flex;
+            width: 100%;
+            margin-top: 10px;
+        }
+        
+        .icon-box {
+            flex: 0 0 30%;
+            background: white;
+            border: 3px solid #808080;
+            padding: 20px;
+            min-height: 200px;
+            box-sizing: border-box;
+        }
+        
+        .icon-box-content {
+            text-align: center;
+            padding: 40px 0;
+        }
+        
+        .bic-logo-text {
+            font-size: 13pt;
+            font-weight: bold;
+            color: #E31E24;
+            margin-bottom: 8px;
+        }
+        
+        .bic-empresas-box {
+            display: inline-block;
+            font-size: 15pt;
+            font-weight: bold;
+            color: #000;
+            background: #fff;
+            border: 2px solid #E31E24;
+            padding: 8px 20px;
+            margin: 10px 0;
+        }
+        
+        .icon-row {
+            margin: 15px 0;
+            text-align: center;
+        }
+        
+        .icon-circle {
+            display: inline-block;
+            width: 65px;
+            height: 65px;
+            border: 3px solid #E31E24;
+            border-radius: 50%;
+            margin: 0 20px;
+            background: #fff;
+        }
+        
+        .icon-label {
+            font-size: 7pt;
+            font-weight: bold;
+            text-align: center;
+            line-height: 1.1;
+            margin-top: 5px;
+        }
+        
+        .spacer {
+            flex: 0 0 2%;
+        }
+        
+        .red-box {
+            flex: 0 0 68%;
+            
+            color: white;
+            padding: 25px 30px;
+            min-height: 200px;
+            box-sizing: border-box;
+        }
+        
+        .red-box-title {
+            font-size: 20pt;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin: 0 0 15px 0;
+            letter-spacing: 0.3px;
+            line-height: 1.2;
+        }
+        
+        .red-box-subtitle {
+            font-size: 12pt;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        
+        .red-box-date {
+            font-size: 11pt;
+        }
+        
+        /* SEÇÕES */
+        .section-title {
+            font-size: 13pt;
+            font-weight: bold;
+            border-bottom: 7px solid #0099CC;
+            padding-bottom: 3px;
+           
+        }
+        
+        .company-name {
+            font-size: 12pt;
+            font-weight: bold;
+            margin-top:10px ;
+              margin-bottom:10px ;
+        }
+        
+        /* TABELA */
+        .table-container {
+            width: 100%;
+            
+        }
+        
+        .policy-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        
+        .policy-table th {
+           
+            border: 1px solid #666;
+            padding-top: 2px;
+            padding-bottom: 2px;
+            text-align: left;
+            font-size: 10pt;
+            font-weight: bold;
+        }
+        
+        .policy-table td {
+            
+            border: 1px solid #666;
+            padding-top: 2px;
+            padding-bottom: 2px;
+            text-align: left;
+            font-size: 10pt;
+           
+        }
+        
+        /* LISTA COM BULLETS */
+        .bullet-list {
+            margin: 20px 0;
+        }
+        
+        .bullet-item {
+            margin-bottom: 12px;
+            padding-left: 50px;
+            position: relative;
+            line-height: 1.5;
+            font-size: 13px;
+        }
+        
+      .bullet-item {
+    background-image: url('img/cotacao/alvore-bic.png');
+    background-repeat: no-repeat;
+    background-size: 15px 10px;
+    
+
+    /* Ou usar porcentagens */
+    background-position: 4% 15%; /* Esquerda, centro vertical */
+}
+        
+        /* ASSINATURA */
+        .signature-container {
+            margin-top: 50px;
+        }
+        
+        .company-signature {
+            font-weight: bold;
+            margin: 0 0 60px 0;
+        }
+        
+        .signature-line {
+            width: 200px;
+            border-bottom: 1px solid #000;
+            margin-top: 5px;
+        }
+        
+        /* RODAPÉ */
+        .footer-container {
+            position: relative;
+            width: 100%;
+            border-top: 1px solid #CCC;
+            padding-top: 8px;
+            margin-top: 40px;
+        }
+        
+        .footer-left {
+            float: left;
+            width: 30%;
+            font-size: 8pt;
+            color: #999;
+        }
+        
+        .footer-center {
+            text-align: center;
+            font-size: 9pt;
+            color: #666;
+            width: 100%;
+        }
+        
+        .footer-link {
+            color: #0099CC;
+            text-decoration: none;
+        }
+        
+        .clearfix {
+            clear: both;
+        }
+        
+        /* PADDING ESPECÍFICO */
+        .padding-left-red {
+            padding-left: 40px;
+            background-color: #E31E24;
+        }

@@ -1,0 +1,459 @@
+.pdf-container {
+    /* font-family: Arial; */
+}
+
+/* Layout e posicionamento */
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.left {
+    width: 50%;
+    float: left;
+}
+
+.right {
+    float: right;
+    width: 50%;
+}
+
+/* Cores */
+.color-black {
+    color: black;
+}
+
+.red {
+    color: #dc0707;
+}
+
+.text-danger {
+    color: red;
+}
+
+.text-blue {
+    color: #0a3087;
+}
+
+.text-white {
+    color: white;
+}
+
+.bg-c-light-gray {
+    background-color: #f3f2f2;
+}
+
+/* Tipografia */
+.fw-b {
+    font-weight: bold;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.tt-capitalize {
+    text-transform: capitalize;
+}
+
+.sublinhado {
+    text-decoration: underline;
+}
+
+/* Configurações de página */
+@page {
+    header: main_header;
+    margin-top: 100px;
+    background: url('img/cotacao/border.png') no-repeat 0 0;
+    background-image-resize: 6;
+}
+
+@page :first {
+    header: none;
+   margin-top: 100px;
+}
+@page {
+    /* header: none; */
+    margin-top: 80px;
+    /* margin-top: 140px; */
+}
+
+
+
+/* Cabeçalho */
+.header {
+    text-align: center;
+}
+
+.title {
+    font-size: 55px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.box-img-cab {
+    text-align: right;
+    padding-bottom: 5px;
+    height: 100px;
+}
+
+.img-cab {
+    margin-top: 20px;
+}
+
+.area-corrector {
+    font-size: 20px;
+    color: black;
+    margin-top: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Proposta */
+.proposal-title {
+    text-align: center;
+    margin: 10px 0;
+    font-family: Calibri;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.proposal-title-title {
+    font-weight: 700;
+    font-size: 23px;
+    font-family: Calibri;
+    /* background-color: yellow; */
+    /* text-transform: uppercase; */
+
+}
+
+.proposal-title h5 {
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+/* Textos */
+.intro-text p {
+    margin-top: 27px;
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: justify;
+    color: black;
+}
+
+.date-text {
+    font-size: 15px;
+    text-align: right;
+}
+
+.page-title {
+    font-weight: 900;
+    font-size: 15px;
+    margin-top: 100px;
+    color: #0d0d0d;
+    text-transform: uppercase;
+}
+
+.page-sub-title {
+    font-weight: 900;
+    font-size: 14px;
+    margin-top: 100px;
+}
+
+.quote-number {
+    margin: 20px 0 1px 25px;
+    font-size: 13px;
+}
+
+/* Blocos de texto */
+.text-block {
+    margin: 10px 0;
+      margin-bottom: 40px;
+}
+
+.mt-text-block{
+      margin-top: 60px;
+      
+}
+
+.left-text {
+    color: rgb(55, 54, 54);
+    width: 24%;
+    padding-right: 10px;
+    text-align: right;
+    padding-top: 0;
+    vertical-align: top;
+}
+
+.right-text {
+    width: 76%;
+    padding: 10px;
+    padding-top: 0;
+    line-height: 1.5;
+    color: rgb(0, 0, 0);
+    border-left: 2px solid #47bfef;
+    text-align: justify;
+    padding-right: 0;
+}
+
+.right-text hr {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+/* Tabelas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tb_ccs .td-title {
+    text-align: center;
+    font-weight: bold;
+}
+
+.tb_ccs td,
+.tb_ccs th {    
+    border: 0.5px solid #0d0d0d !important;
+    padding: 1px !important;
+}
+
+
+.tb_ccs2 td,
+.tb_ccs2 th {
+    border: 0.5px solid #0d0d0d !important;
+    /* padding: 3px !important; */
+    /* background-color: red; */
+}
+.tb_ccs2 th,
+.tb_ccs2 td {
+    font-size: 7px !important;
+    color: black !important;
+    font-weight: bolder !important;
+    border: 0.3px solid #1f1e1e !important;
+    /* padding: 10px; */
+}
+.tr_taxa_premio td {
+    border-bottom: 1px solid #0d0d0d !important;
+}
+
+.tb-quote {
+    color: black;
+    width: 94%;
+}
+
+.tb-quote th {
+    font-weight: bold;
+    text-align: center;
+}
+
+.tb-quote td {
+    padding: 2px 8px;
+}
+
+.table-border,
+.th-border,
+.td-border {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.table-border td,
+th {
+    font-size: 10px;
+    color: black;
+    padding: 4px;
+}
+
+.attachment-table th,
+.attachment-table td {
+    font-size: 10px !important;
+    color: black !important;
+    font-weight: bolder !important;
+    border: 0.3px solid #1f1e1e !important;
+    padding: 10px;
+}
+
+/* Listas e itens */
+.coverage-list {
+    text-transform: capitalize;
+    list-style-type: none !important;
+}
+
+.coverage-item {
+    width: 200px;
+}
+
+.p-item {
+    padding-left: 6.5px;
+    font-weight: normal;
+}
+
+/* Informações importantes */
+.info-importante {
+    text-align: justify;
+    color: black;
+    font-size: 13px !important;
+    padding-bottom: 0;
+    line-height: 20px;
+}
+
+.important-info h5 {
+    color: rgb(22, 22, 22);
+    font-size: 12.5px !important;
+    padding-top: 0;
+}
+
+/* Elementos específicos */
+.icone_item {
+    height: 13px;
+}
+
+.span-space {
+    color: white;
+}
+
+.logo-container {
+    position: absolute;
+    left: 70px;
+    top: 580px;
+    height: 98px;
+}
+
+.icon-img {
+    margin-top: 490px;
+    margin-left: 30px;
+    height: 150px;
+}
+
+.cover {
+    height: 370px;
+}
+
+.box-cover {
+    text-align: center;
+}
+
+.coverage-content {
+    width: 200px;
+}
+
+.encargos {
+    width: 200px;
+}
+
+.box-pag-anexo {
+    height: 1300px;
+    width: 100%;
+    background-color: red;
+}
+
+/* Aplicações adicionais */
+.another-application {
+    font-size: 12.5px !important;
+}
+
+.another-application .valid-note {
+    padding-left: 36px;
+}
+
+.another-application h5 {
+    color: rgb(22, 22, 22);
+    font-size: 13px !important;
+}
+
+.another-application-detail h5 {
+    padding-left: 20px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.another-application-detail-opt {
+    padding-left: 50px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.another-application-detail-opt-roman {
+    padding-left: 70px;
+}
+
+.ft-value-cap-insurance {
+    font-size: 12px;
+}
+.cell-font-8{
+    font-size: 8px;
+}
+
+
+
+
+
+.box-logo{
+    text-align: right;
+}
+.box-logo img{
+    height: 1;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+.color-danger{
+    color: red;
+}
+
+
+
+
+
+
+
+ /* Estilos otimizados para mPDF - Classes Personalizadas */
+        .tbl-cobertura-seguros {
+            width: 100%;
+            border-collapse: collapse;
+            font-family: Arial, sans-serif;
+            font-size: 10pt;
+        }
+        
+        .tbl-cobertura-seguros-header {
+            /* background-color: #4a4a4a; */
+            /* color: #ffffff; */
+            font-weight: bold;
+            padding: 8px;
+            border: 1px solid #000000;
+            text-align: center;
+                font-size: 13px;
+        }
+        
+        .tbl-cobertura-seguros-cell {
+            border: 1px solid #000000;
+            padding: 2px 4px;
+            vertical-align: top;
+            font-size: 13px;
+            /* text-transform: capitalize; */
+            /* background-color: red;; */
+          
+        }
+        
+        .tbl-cobertura-secao-titulo {
+            font-weight: bold;
+            /* background-color: #f5f5f5; */
+        }
+        
+        .tbl-cobertura-item {
+            padding-left: 5px;
+        }
+        
+        .tbl-cobertura-capital {
+            text-align: center;
+            vertical-align: middle;
+        }
+   

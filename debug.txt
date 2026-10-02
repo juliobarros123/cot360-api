@@ -1,0 +1,98 @@
+Selecionar todos
+Order	
+Propriedades/Imóveis
+Nenhum ficheiro selecionado
+Coberturas
+Order	Descrição Completa	Valor Edifício (AOA)	Valor Conteúdos (AOA)	Valor Exploração (AOA)	Valor Total (AOA)	
+BASE CONTEÚDO
+BASE EDIFÍCIO
+SubTotal	
+Selecionar objeto
+1	Tipo: VIVENDA UNIFAMILIAR | Endereço: Golf 2, simão toco | Área: 6m² | Pisos: 1 | Classe Risco: 1º RISCO - INCOMBUSTÍVEL | Segurado como: INQUILINO | Residência: HABITUAL | Ano: 2022 | Proteção Incêndio: SIM | Proteção Roubo: SIM | Edifício: 1 000 AOA | Conteúdos: 20 000 AOA | TOTAL: 21 000 AOA	1000	20000		21 000	
+Taxa:
+0,00% 
+Pr.: 0,00 KZ
+
+Taxa:
+0,00% 
+Pr.: 0,00 KZ
+
+0,00 KZ	
+Cobertura	Tipo	Capital	Taxa	Franquia	Prémio	Ajus.
+
+COBERTURA BASE EDIFÍ...
+ Obrigatória	
+Capital:21 000,00
+ 1.00%
+ 0	Sem franquia	 0,00	
+Subcobertura	Tipo	Capital	Taxa	Franquia	Prémio	Ajus.
+
+Edf-Incêndio Queda de Raio e Explosão
+ Obrigatória	
+Capital:
+21 000,00
+ 1.00%
+Sem franquia	 0,00	
+
+Edf-Tempestades
+ Obrigatória	
+Capital:
+21 000,00
+ 1.00%
+Sem franquia	 0,00	
+
+Edf-Inundações
+ Obrigatória	
+Capital:
+21 000,00
+ 1.00%
+Sem franquia	 0,00	
+
+Edf-Demolição e Remoção de Escombros
+ Obrigatória	
+Capital:
+1 050,00
+ 0.05%
+Sem franquia	 0,00	
+
+Edf-Queda de Aeronaves
+ Obrigatória	
+Capital:
+21 000,00
+ 1.00%
+Sem franquia	 0,00	
+
+Edf-Choque Impacto Veículos Terrestres
+ Obrigatória	
+Capital:
+21 000,00
+ 1.00%
+Sem franquia	 0,00	
+
+Edf-Quebra Vidros Espelhos e Pedras Mármores
+ Obrigatória	
+Capital:
+420,00
+ 0.02%
+Sem franquia	 0,00	
+
+Edf-Responsabilidade Civil
+ Obrigatória	
+Capital:
+1 050,00
+ 0.05%
+Sem franquia	 0,00	
+
+Edf-Fenómenos Sísmicos
+ Obrigatória	
+Capital:
+21 000,00
+ 1.00%
+Sem franquia	 0,00	
+
+Aluimento de Terras
+ Obrigatória	
+Capital:
+42 000,00
+ 2.00%
+Sem franquia	 0,00

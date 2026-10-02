@@ -1,0 +1,484 @@
+/* CSS otimizado para mPDF - Documentos Compliance (PEP / Beneficiario Efectivo / Origem-Destino Fundos) */
+
+@page {
+  header: main_header;
+  footer: compliance_footer;
+  background: url('img/cotacao/compliance/border-1.png') no-repeat 0 0;
+  background-image-resize: 6;
+}
+
+body {
+  color: #111;
+  font-family: calibri, sans-serif;
+  font-size: 10.5pt;
+}
+
+.footer-page-number {
+  font-size: 10pt;
+  text-align: right;
+}
+
+.doc-page:last-child {
+  page-break-after: auto;
+}
+
+.doc-header {
+  width: 100%;
+  margin-bottom: 24px;
+}
+
+.doc-header td {
+  vertical-align: top;
+}
+
+.doc-logo {
+  height: 58px;
+}
+
+.doc-title {
+  font-size: 10pt;
+  font-weight: bold;
+  color: #16397a;
+  text-align: right;
+  padding-top: 10px;
+}
+
+.intro {
+  margin-top: 60px;
+  line-height: 1.45;
+  text-align: justify;
+  font-size: 9pt;
+
+}
+
+.intro--odf {
+  margin: 20px 24px 0;
+  font-size: 9pt;
+  line-height: 1.4;
+}
+
+.list-block {
+  margin-top: 18px;
+  line-height: 1.38;
+  text-align: justify;
+  font-size: 9pt;
+}
+
+.pep-list {
+  margin: 10px 0 0 14px;
+  padding: 0;
+  font-size: 9pt;
+}
+
+.pep-list li {
+  margin: 0 0 2px 0;
+  font-size: 9pt;
+}
+
+.choice-line {
+  margin-top: 18px;
+  font-size: 9pt;
+  font-weight: bold;
+  line-height: 1.3;
+}
+
+.subtext {
+  margin-top: 18px;
+  font-size: 9pt;
+}
+
+.field-table {
+  font-size: 9pt;
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 22px;
+}
+
+.field-table td {
+  padding: 0;
+  margin: 0;
+  line-height: 1.2;
+  vertical-align: bottom;
+  font-size: 8pt;
+}
+
+.line {
+  display: inline-block;
+  /* border-bottom: 1px solid #6b6b6b; */
+  height: 10px;
+  vertical-align: bottom;
+    background: #E9ECF7;
+}
+
+.line.full {
+  width: 100%;
+}
+
+.line.w-25 {
+  width: 25%;
+}
+
+.line.w-35 {
+  width: 35%;
+}
+
+.line.w-45 {
+  width: 45%;
+}
+
+.line.w-60 {
+  width: 60%;
+}
+
+.line.w-70 {
+  width: 70%;
+}
+
+.line.w-78 {
+  width: 78%;
+}
+
+.line.w-82 {
+  width: 82%;
+}
+
+.check-box {
+  display: inline-block;
+  width: 18px;
+  height: 12px;
+  border: 1px solid #222;
+  text-align: center;
+  line-height: 12px;
+  margin-right: 6px;
+  font-weight: 700;
+
+}
+
+.checkbox-row {
+  margin-top: 20px;
+  font-size: 9pt;
+}
+
+.checkbox-row .option {
+  display: inline-block;
+  min-width: 44%;
+}
+
+.strong-line {
+  font-weight: 700;
+  font-size: 9pt;
+  margin-top: 30px;
+}
+
+.section-bar {
+  background: #f7c1c1;
+  padding: 12px 14px;
+  font-weight: bold;
+  font-size: 9pt;
+  margin: 22px 24px 30px;
+}
+
+.section-bar--odf {
+  margin: 36px 24px 24px;
+}
+
+.section-bar--pep {
+  font-size: 9pt;
+  margin: 120px 24px 26px;
+  font-weight: bold;
+}
+
+.section-bar.small {
+  margin-top: 148px;
+}
+
+.declaration-text {
+  margin: 0 40px 42px;
+  font-size: 9pt;
+  line-height: 1.45;
+  text-align: justify;
+}
+
+.signature-block {
+  margin: 20px 40px 0;
+}
+
+.office-box {
+  margin: 110px 15px 0;
+  background: #efefef;
+  border: 1px solid #e0e0e0;
+}
+
+.office-title {
+  background: #f8d0d0;
+  padding: 9px;
+  text-align: center;
+  font-size: 12pt;
+  font-weight: bold;
+}
+
+.office-content {
+  padding: 36px 16px 28px;
+  min-height: 210px;
+}
+
+.office-box--compact {
+  margin-top: 48px;
+}
+
+.office-content--compact {
+  min-height: 150px;
+}
+
+.mandatory {
+  margin: 0 24px 18px;
+  color: #16397a;
+  font-weight: 700;
+  font-size: 9pt;
+  font-weight: bold;
+}
+
+.field-grid {
+  
+  margin: 0 24px;
+  border-collapse: separate;
+  border-spacing: 0 16px;
+  font-size: 9pt;
+}
+
+.field-grid td {
+  vertical-align: middle;
+}
+
+.field-box {
+  border: 1px solid #f5d6d6;
+  background: #E9ECF7;
+  min-height: 30px;
+  padding: 7px 10px;
+}
+
+.field-box.tall {
+  min-height: 54px;
+}
+
+.table-shell {
+ 
+  margin: 0 24px 22px;
+  border: 1px solid #f5d6d6;
+  background: #fafafa;
+  padding: 10px 14px 14px;
+}
+
+.mini-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 11pt;
+}
+
+.mini-table th,
+.mini-table td {
+  border: 1px solid #bdbdbd;
+  padding: 6px 8px;
+}
+
+.mini-table th {
+  font-weight: 400;
+  color: #1d3f80;
+  background: #f5f5f5;
+}
+
+.mini-table td {
+  height: 20px;
+}
+
+.benef-shell {
+ 
+  margin: 10px 24px 0;
+  /* border: 1px solid #f5d6d6; */
+  background: #E9ECF7;
+  padding: 12px 16px 16px;
+}
+
+.benef-title {
+  color: #1d3f80;
+  font-size: 9pt;
+  margin-bottom: 12px;
+}
+
+.representante-text {
+  margin: 130px 24px 0;
+  font-size: 10pt;
+  line-height: 1.9;
+}
+
+.representante-label {
+  text-align: center;
+  margin-top: 120px;
+  font-size: 10pt;
+}
+
+.signature-line-short {
+  margin: 92px 24px 0;
+  border-bottom: 1px solid #333;
+  height: 18px;
+  text-align: center;
+    background: #E9ECF7;
+    padding: 10px;
+}
+
+.footnote {
+  margin: 80px 24px 0;
+  font-size: 9pt;
+  font-weight: bold;
+  line-height: 1.45;
+  margin-top: 300px;
+  
+}
+
+.choices {
+ 
+  margin: 10px 24px 0;
+  font-size: 9pt;
+}
+
+.choices td {
+  width: 50%;
+  padding: 8px 0;
+  vertical-align: middle;
+}
+
+.description-box {
+  border: 1px solid #f5d6d6;
+  background: #fafafa;
+  min-height: 92px;
+  padding: 10px;
+}
+
+.purpose-text {
+  margin: 0 24px;
+  font-size: 9pt;
+  line-height: 1.45;
+  text-align: justify;
+}
+
+.inline-box {
+  display: inline-block;
+  border: 1px solid #f5d6d6;
+  background: #E9ECF7;
+  min-height: 26px;
+  vertical-align: bottom;
+  padding: 4px 10px;
+}
+
+.inline-box.value {
+  width: 160px;
+}
+
+.inline-box.extenso {
+  width: 430px;
+}
+
+.full-box {
+  margin: 12px 24px 0;
+  border: 1px solid #f5d6d6;
+  background: #fafafa;
+  height: 32px;
+}
+
+.doc-footer {
+  position: absolute;
+  left: 34px;
+  right: 34px;
+  bottom: 18px;
+  font-size: 10pt;
+}
+
+.doc-footer .left {
+  float: left;
+}
+
+.doc-footer .right {
+  float: right;
+}
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* Blocos de assinatura - Padrão unificado */
+.signature-wrapper {
+  overflow: hidden;
+  width: 100%;
+}
+
+.signature-left {
+  float: left;
+  width: 52%;
+}
+.text-center{
+  text-align: center;
+}
+.signature-right {
+  float: right;
+  width: 46%;
+}
+
+.signature-spacer {
+
+}
+
+.signature-line {
+  border-bottom: 1px solid #000;
+  min-height: 20px;
+}
+
+.signature-line-center {
+  border-bottom: 1px solid #000;
+  min-height: 20px;
+  text-align: center;
+}
+
+.signature-label {
+  font-size: 8pt;
+  margin-top: 5px;
+}
+
+.signature-label-center {
+   font-size: 10pt;
+  margin-top: 5px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.signature-date {
+  font-size: 9pt;
+  margin-top: 10px;
+  
+}
+
+.signature-block {
+  margin: 20px 40px 0;
+}
+
+/* Variante para dentro do office-box */
+.signature-office {
+  overflow: hidden;
+  margin-bottom: 60px;
+}
+
+.signature-office:last-child {
+  margin-bottom: 0;
+}
+table td{
+    font-size: 9pt;
+}
+table th{
+    font-size: 9pt;
+}
+.recipient td div{
+  /* padding: 10px!important; */
+  /* background-color: red; */
+  /* margin-top: 10px; */
+}
